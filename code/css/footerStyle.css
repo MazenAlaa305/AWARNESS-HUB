@@ -1,0 +1,55 @@
+footer {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#contact-details {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 80%;
+}
+
+#contact-details> :first-child {
+    display: flex;
+    align-items: center;
+}
+
+#contact-details> :first-child i {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+#contact-details i {  
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#contact-details i:hover {
+  
+    font-size: 1.6rem;
+    color: orange;
+}
+
+#contact-details> :nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+#contact-details> :nth-child(2)>i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-logo{
+  margin-left: 5%;
+  width: 200%;
+  margin-bottom: 0px;
+}

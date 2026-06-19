@@ -1,0 +1,43 @@
+# Claude Code local settings
+.claude/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Documentation source files (keep only in docs/ or releases)
+*.pptx
+*.docx
+*.pdf
+
+# Video files (too large for Git)
+*.webm
+*.mp4
+*.avi
+
+# Node modules (if applicable)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
